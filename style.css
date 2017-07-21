@@ -1,0 +1,92 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+
+	 
+
+@import url('https://fonts.googleapis.com/css?family=Paprika');
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font-family: Helvetica;
+	color: white;
+	margin: 0; 
+	padding: 0;
+	text-shadow: 2px 2px black;
+	background-color: black;
+	}
+
+	a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #90caf9;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #80deea;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+	background: url('../images/sky.jpg'); 
+	padding: 50px 175px 50px 110px;  
+	margin: 0; 
+	/*position: relative; */
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+
+h1 {
+	text-align: center;
+	font-size: 80px;
+	text-shadow: 2px 2px black;
+	font-family: 'Paprika', cursive;
+}
+
+ h2 { 
+	text-align: center;
+	font-size:30px;
+	margin-bottom: 40px;
+	font-family: 'Paprika', cursive;
+
+	}
+
+h3 {
+	font-family: 'Paprika', cursive;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+
+footer { 
+	text-align: center; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
