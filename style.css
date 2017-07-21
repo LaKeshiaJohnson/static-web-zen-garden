@@ -19,16 +19,18 @@ html {
 	padding: 0;
 	}
 body { 
-	font-family: 'Paprika', cursive;
+	font-family: Helvetica;
 	color: white;
 	margin: 0; 
 	padding: 0;
+	text-shadow: 2px 2px black;
+	background-color: black;
 	}
 
 	a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: #90caf9;
 	}
 a:visited { 
 	font-weight: bold; 
@@ -37,7 +39,7 @@ a:visited {
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: #9685BA;
+	color: #80deea;
 	}
 abbr {
 	border-bottom: none;
@@ -46,10 +48,13 @@ abbr {
 
 /* specific divs */
 .page-wrapper { 
-	background: url('../images/zen.jpg') no-repeat; 
-	padding: 0 175px 0 110px;  
+	background: url('../images/sky.jpg'); 
+	padding: 50px 175px 50px 110px;  
 	margin: 0; 
-	position: relative;
+	/*position: relative; */
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
 	}
 
 .intro { 
@@ -59,15 +64,24 @@ abbr {
 
 h1 {
 	text-align: center;
-	font-size: 80px
+	font-size: 80px;
+	text-shadow: 2px 2px black;
+	font-family: 'Paprika', cursive;
 }
+
  h2 { 
 	text-align: center;
 	font-size:30px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
+	font-family: 'Paprika', cursive;
+
 	}
 
-
+h3 {
+	font-family: 'Paprika', cursive;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
 
 
 footer { 
